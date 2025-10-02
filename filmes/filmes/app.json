@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "ListadeFilmesMarvel",
+    "slug": "lista-filmes-Marvel",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon-filmes.png",
+    "scheme": "listadefilmesmarvel",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "image": "./assets/splash-filmes.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#a11e1e",
+
+    "ios": {
+      "supportsTablet": true
+    },
+    
+    "edgeToEdgeEnabled": true,
+
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon-filmes.png",
+        "backgroundColor": "#a11e1e"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon-filmes.png"
+    }
+  }
+}
